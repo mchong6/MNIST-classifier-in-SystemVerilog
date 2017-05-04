@@ -11,7 +11,7 @@ Input layer of dimension [1,784] and output layer of dimension [784, 10]. Matrix
 
 Instructions:
 
-First run tf.py to train the neural network and obtain truncated weights. Run weights_to_hex to convert weights to hexadecimal which is read in by the FPGA. Place the weights file in the Neural Network folder in SV_code.
+First run tf.py to train the neural network and obtain truncated weights. Run weights_to_hex.py to convert weights to hexadecimal which is read in by the FPGA. Place the weights file in the Neural Network folder in SV_code.
 
 Import the project in SV_code to QUARTUS and compile.
 
