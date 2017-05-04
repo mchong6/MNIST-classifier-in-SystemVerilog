@@ -6,7 +6,7 @@ Hardware used:
 Altera Cyclone IV FPGA
 Terasic 1.3 Mega Pixel Camera
 
-Network
+Network:
 Input layer of dimension [1,784] and output layer of dimension [784, 10]. Matrix multiplication done on FPGA is done in pixel-wise manner. 640 x 480 Camera image is truncated and downsampled to 28x28, which is the same dimension as an MNIST image.
 
 Instructions:
