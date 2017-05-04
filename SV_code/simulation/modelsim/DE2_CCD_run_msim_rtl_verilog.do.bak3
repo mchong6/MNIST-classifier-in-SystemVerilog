@@ -1,0 +1,43 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/mult_accum.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/compare.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/I2C_CCD_Config.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/I2C_Controller.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Line_Buffer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Reset_Delay.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/SEG7_LUT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/SEG7_LUT_8.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port/Sdram_FIFO.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port/Sdram_PLL.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/RAW2RGB.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/CCD_Capture.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Mirror_Col.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/stack_ram.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/VGA_Controller.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port/command.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port/control_interface.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port/sdr_data_path.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/Sdram_Control_4Port/Sdram_Control_4Port.v}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/weights.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/largest_reg.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/gray2bw.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/tristate.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/sram_controller2.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/sram_wr.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/DE2_CCD.sv}
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/multiply.sv}
+
+vlog -sv -work work +incdir+C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3 {C:/Users/nath3/Documents/Final_mchong6_nath3/Final_mchong6_nath3/testbench.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+
+add wave *
+view structure
+view signals
+run 1000 ns

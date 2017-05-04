@@ -1,0 +1,32 @@
+
+State Machine - |DE2_CCD|I2C_CCD_Config:u7|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 
+
+State Machine - |DE2_CCD|train:training_unit|train_state_machine:train_unit|state
+Name state.FIRST_PIX state.WAIT state.DONE state.UPDATE state.MULTIPLY_3 state.WAIT_IM state.REST 
+state.REST 0 0 0 0 0 0 0 
+state.WAIT_IM 0 0 0 0 0 1 1 
+state.MULTIPLY_3 0 0 0 0 1 0 1 
+state.UPDATE 0 0 0 1 0 0 1 
+state.DONE 0 0 1 0 0 0 1 
+state.WAIT 0 1 0 0 0 0 1 
+state.FIRST_PIX 1 0 0 0 0 0 1 
+
+State Machine - |DE2_CCD|multiply:multiplication_unit|matmux10:multiply_unit|state
+Name state.COMPARE state.DONE state.MULTIPLY_DELAY state.MULTIPLY state.WAIT2 state.WAIT 
+state.WAIT 0 0 0 0 0 0 
+state.WAIT2 0 0 0 0 1 1 
+state.MULTIPLY 0 0 0 1 0 1 
+state.MULTIPLY_DELAY 0 0 1 0 0 1 
+state.DONE 0 1 0 0 0 1 
+state.COMPARE 1 0 0 0 0 1 
+
+State Machine - |DE2_CCD|sram_controller:SRAM_unit|state
+Name state.WR_1 state.WR_0 state.GET_DATA state.WAIT 
+state.WAIT 0 0 0 0 
+state.GET_DATA 0 0 1 1 
+state.WR_0 0 1 0 1 
+state.WR_1 1 0 0 1 

@@ -1,0 +1,302 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE2_CCD_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code {C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 03:31:15 on May 02,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mchong6/ECE385/Final/SV_code" C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v 
+# -- Compiling module mult_accum
+# 
+# Top level modules:
+# 	mult_accum
+# End time: 03:31:15 on May 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code {C:/Users/mchong6/ECE385/Final/SV_code/pixel_counter_sim.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 03:31:15 on May 02,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mchong6/ECE385/Final/SV_code" C:/Users/mchong6/ECE385/Final/SV_code/pixel_counter_sim.sv 
+# -- Compiling module pix_sim
+# 
+# Top level modules:
+# 	pix_sim
+# End time: 03:31:15 on May 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code {C:/Users/mchong6/ECE385/Final/SV_code/weights_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 03:31:15 on May 02,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mchong6/ECE385/Final/SV_code" C:/Users/mchong6/ECE385/Final/SV_code/weights_controller.sv 
+# -- Compiling module weights_controller
+# 
+# Top level modules:
+# 	weights_controller
+# End time: 03:31:15 on May 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code {C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 03:31:15 on May 02,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mchong6/ECE385/Final/SV_code" C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv 
+# -- Compiling module train
+# -- Compiling module SW_b_to_dec
+# -- Compiling module MSE_derivative
+# -- Compiling module train_state_machine
+# 
+# Top level modules:
+# 	train
+# End time: 03:31:15 on May 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code {C:/Users/mchong6/ECE385/Final/SV_code/train_test.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 03:31:15 on May 02,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mchong6/ECE385/Final/SV_code" C:/Users/mchong6/ECE385/Final/SV_code/train_test.sv 
+# -- Compiling module train_test
+# 
+# Top level modules:
+# 	train_test
+# End time: 03:31:15 on May 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code {C:/Users/mchong6/ECE385/Final/SV_code/testbench_full.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 03:31:15 on May 02,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mchong6/ECE385/Final/SV_code" C:/Users/mchong6/ECE385/Final/SV_code/testbench_full.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:31:15 on May 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "DE2_CCD_run_msim_rtl_verilog.do" 
+# Start time: 03:31:15 on May 02,2017
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.train_test
+# Loading work.pix_sim
+# Loading work.weights_controller
+# Loading work.train
+# Loading work.SW_b_to_dec
+# Loading work.MSE_derivative
+# Loading work.train_state_machine
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(249): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma0
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(250): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma1
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(251): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma2
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(252): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma3
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(253): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma4
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(254): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma5
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(255): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma6
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(256): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma7
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(257): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma8
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(258): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma9
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+do wave.do
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.train_test
+# Loading work.pix_sim
+# Loading work.weights_controller
+# Loading work.train
+# Loading work.SW_b_to_dec
+# Loading work.MSE_derivative
+# Loading work.train_state_machine
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(249): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma0
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(250): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma1
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(251): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma2
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(252): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma3
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(253): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma4
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(254): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma5
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(255): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma6
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(256): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma7
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(257): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma8
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(258): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma9
+run 50000ns
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.train_test
+# Loading work.pix_sim
+# Loading work.weights_controller
+# Loading work.train
+# Loading work.SW_b_to_dec
+# Loading work.MSE_derivative
+# Loading work.train_state_machine
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(249): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma0
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(250): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma1
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(251): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma2
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(252): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma3
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(253): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma4
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(254): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma5
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(255): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma6
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(256): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma7
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(257): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma8
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(258): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma9
+run 75000ns
+add wave -position insertpoint  \
+sim:/testbench/train_mod/train_unit/train_label_dec
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.train_test
+# Loading work.pix_sim
+# Loading work.weights_controller
+# Loading work.train
+# Loading work.SW_b_to_dec
+# Loading work.MSE_derivative
+# Loading work.train_state_machine
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(249): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma0
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(250): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma1
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(251): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma2
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(252): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma3
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(253): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma4
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(254): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma5
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(255): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma6
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(256): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma7
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(257): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma8
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(258): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma9
+run 50000ns
+add wave -position insertpoint  \
+sim:/testbench/train_mod/train_unit/train_unit/debug_delta
+add wave -position insertpoint  \
+sim:/testbench/train_mod/train_unit/train_unit/delta_w
+restart
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.train_test
+# Loading work.pix_sim
+# Loading work.weights_controller
+# Loading work.train
+# Loading work.SW_b_to_dec
+# Loading work.MSE_derivative
+# Loading work.train_state_machine
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(249): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma0
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(250): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma1
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(251): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma2
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(252): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma3
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(253): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma4
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(254): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma5
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(255): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma6
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(256): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma7
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(257): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma8
+# ** Warning: (vsim-3015) C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv(258): [PCDPC] - Port size (32) does not match connection size (16) for port 'result'. The port definition is at: C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v(47).
+# 
+#         Region: /testbench/train_mod/train_unit/train_unit/ma9
+run 50000ns

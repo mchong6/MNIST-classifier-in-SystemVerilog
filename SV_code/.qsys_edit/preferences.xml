@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="63" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Project,Library/Basic Functions/Simulation; Debug and Verification/Simulation,Library/Memory Interfaces and Controllers/SDRAM,Library/Basic Functions/Simulation; Debug and Verification,Library,Library/Qsys Interconnect/Tri-State Components,Library/Memory Interfaces and Controllers,Library/Basic Functions,Library/Qsys Interconnect" />
+ <window width="2650" height="1848" x="98" y="-12" />
+</preferences>

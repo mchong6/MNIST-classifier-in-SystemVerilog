@@ -1,0 +1,225 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mchong6/ECE385/Final/SV_code/simulation/modelsim
+vMSE_derivative
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1493713875
+!i10b 1
+!s100 :a3<UB?2Yz@UN=:@1h1h40
+IENWI5ELlj3UMPF:[@5OAf3
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 !s105 train_functions_sv_unit
+S1
+R0
+Z5 w1493712660
+Z6 8C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv
+Z7 FC:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv
+L0 75
+Z8 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z9 !s108 1493713875.772000
+Z10 !s107 C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mchong6/ECE385/Final/SV_code|C:/Users/mchong6/ECE385/Final/SV_code/train_functions.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code
+n@m@s@e_derivative
+vmult_accum
+R2
+!i10b 1
+!s100 oK49DZS=5bzBQ]EIgCMk[2
+Ic46bE?I2cnM^=31TEn1:E0
+R3
+R0
+w1493711122
+8C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v
+FC:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v
+L0 40
+R8
+r1
+!s85 0
+31
+!s108 1493713875.566000
+!s107 C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mchong6/ECE385/Final/SV_code|C:/Users/mchong6/ECE385/Final/SV_code/mult_accum.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/mchong6/ECE385/Final/SV_code
+vpix_sim
+R1
+R2
+!i10b 1
+!s100 SbgA39;Dfl:?9inQ>YmV;3
+I7kaf<QDON]kXB8e75=n:f1
+R3
+!s105 pixel_counter_sim_sv_unit
+S1
+R0
+w1493711468
+8C:/Users/mchong6/ECE385/Final/SV_code/pixel_counter_sim.sv
+FC:/Users/mchong6/ECE385/Final/SV_code/pixel_counter_sim.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1493713875.622000
+!s107 C:/Users/mchong6/ECE385/Final/SV_code/pixel_counter_sim.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mchong6/ECE385/Final/SV_code|C:/Users/mchong6/ECE385/Final/SV_code/pixel_counter_sim.sv|
+!i113 1
+R12
+R13
+vSW_b_to_dec
+R1
+R2
+!i10b 1
+!s100 =Xl0NamcB=GAdRcB<Wl@W2
+INWK=P^TFlQHVYjg5fHS:>0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 44
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@s@w_b_to_dec
+vtestbench
+R1
+R2
+!i10b 1
+!s100 X3UIKzWDLfG3EE8>7SHV91
+IWo1m8hK_GKgE7FX6<aBU[0
+R3
+!s105 testbench_full_sv_unit
+S1
+R0
+w1493712497
+8C:/Users/mchong6/ECE385/Final/SV_code/testbench_full.sv
+FC:/Users/mchong6/ECE385/Final/SV_code/testbench_full.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1493713875.887000
+!s107 C:/Users/mchong6/ECE385/Final/SV_code/testbench_full.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mchong6/ECE385/Final/SV_code|C:/Users/mchong6/ECE385/Final/SV_code/testbench_full.sv|
+!i113 1
+R12
+R13
+vtrain
+R1
+R2
+!i10b 1
+!s100 Km[FciYQEeL75^aXRdJIV0
+Ie<W8i1YcBRT16;V]1G15o3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtrain_state_machine
+R1
+R2
+!i10b 1
+!s100 @[TS114]SI0lD71hcVKg02
+I;ES6g<m65]T_mGCeEd5UG0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 103
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtrain_test
+R1
+R2
+!i10b 1
+!s100 ChFez[k5@Hl17jiJ>96=T1
+ISdganMUzb9hW`YOQ`jjJ]3
+R3
+!s105 train_test_sv_unit
+S1
+R0
+w1493711873
+8C:/Users/mchong6/ECE385/Final/SV_code/train_test.sv
+FC:/Users/mchong6/ECE385/Final/SV_code/train_test.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1493713875.832000
+!s107 C:/Users/mchong6/ECE385/Final/SV_code/train_test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mchong6/ECE385/Final/SV_code|C:/Users/mchong6/ECE385/Final/SV_code/train_test.sv|
+!i113 1
+R12
+R13
+vweights_controller
+R1
+R2
+!i10b 1
+!s100 ]aJ2>J7X@mDlkClX[m?`a1
+I7H@ZA2BnAHhQHAk6RRnT63
+R3
+!s105 weights_controller_sv_unit
+S1
+R0
+w1493713822
+8C:/Users/mchong6/ECE385/Final/SV_code/weights_controller.sv
+FC:/Users/mchong6/ECE385/Final/SV_code/weights_controller.sv
+L0 4
+R8
+r1
+!s85 0
+31
+!s108 1493713875.679000
+!s107 C:/Users/mchong6/ECE385/Final/SV_code/weights_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mchong6/ECE385/Final/SV_code|C:/Users/mchong6/ECE385/Final/SV_code/weights_controller.sv|
+!i113 1
+R12
+R13
