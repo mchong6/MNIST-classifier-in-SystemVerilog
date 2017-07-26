@@ -1,6 +1,6 @@
 # MNIST-classifier-in-SystemVerilog
 
-Implementation of a simple 2 layer Neural network to classify a digit. Weights are truncated to integers for easily multiplication in hardware.
+Implementation of a simple 2 layer Neural network to classify a digit. Weights are truncated to integers for easy multiplication in hardware.
 
 Hardware used:
 Altera Cyclone IV FPGA
